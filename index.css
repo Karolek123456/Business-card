@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.image{
+    width:150px;
+    border-radius: 20px;
+}
+.card{
+    width:400px;
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    margin: 150px auto;
+    background:#ade8f4;
+    box-shadow: 7px 5px;
+
+   
+}
+.text{
+    margin-left: 50px;
+    text-align:center;
+}
+.border-blue{
+    border: 4px solid #00b4d8;
+    border-radius: 20px;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+h3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h4 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+.card:hover {
+  background-color:#00b4d8 ;
+}
